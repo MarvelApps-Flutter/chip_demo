@@ -1,4 +1,4 @@
-import 'package:chip_module/screen/home.dart';
+import 'package:chip_module/screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,10 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Chip Module',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Home(),
+      home: const SplashScreen(),
     );
   }
 }
