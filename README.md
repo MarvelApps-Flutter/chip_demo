@@ -1,4 +1,4 @@
-# chip_module
+# Chip Module
 
 A flutter app demonstrating the use of different types of Chip.
 
